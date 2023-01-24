@@ -10,7 +10,7 @@ public class SalesEmployee extends Employee {
 		this.salesMade = salesMade;
 	}
 
-	public float variableComponent() {
+	protected float variableComponent() {
 		return salesMade * commissionRate;
 	}
 

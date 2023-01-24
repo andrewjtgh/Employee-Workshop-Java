@@ -17,7 +17,7 @@ public abstract class Employee {
 		return name;
 	}
 
-	public float computeDeductions() {
+	private float computeDeductions() {
 		return salary * 0.2f;
 	}
 

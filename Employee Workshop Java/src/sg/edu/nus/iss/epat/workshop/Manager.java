@@ -11,5 +11,4 @@ public class Manager extends Employee {
 	public float variableComponent() {
 		return variableComponent;
 	}
-
 }
