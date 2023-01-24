@@ -21,5 +21,9 @@ public abstract class Employee {
 		return salary * 0.2f;
 	}
 
-	public abstract float computeSalary();
+	protected abstract float variableComponent();
+
+	public float computeSalary() {
+		return getBaseSalary() - computeDeductions() + variableComponent();
+	}
 }

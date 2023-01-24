@@ -12,7 +12,4 @@ public class Manager extends Employee {
 		return variableComponent;
 	}
 
-	public float computeSalary() {
-		return getBaseSalary() - computeDeductions() + variableComponent();
-	}
 }

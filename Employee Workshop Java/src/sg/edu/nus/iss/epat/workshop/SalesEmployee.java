@@ -10,11 +10,8 @@ public class SalesEmployee extends Employee {
 		this.salesMade = salesMade;
 	}
 
-	private float variableComponent() {
+	public float variableComponent() {
 		return salesMade * commissionRate;
 	}
 
-	public float computeSalary() {
-		return getBaseSalary() - computeDeductions() + variableComponent();
-	}
 }
